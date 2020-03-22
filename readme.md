@@ -10,7 +10,7 @@ Some of the things I use it for:
 
 * `:Tap wc -w`: Count the words in this file.
 * `:'<,'>Tap wc -w`: Count the words in the selected region.
-* `:'<,'>Tap xclip -selection -i`: Copy the selected region in vim in crostini, to the clipboard in
+* `:'<,'>Tap xclip -selection -i`: Copy the selected region from vim running in crostini, to the clipboard in
   chromeos.
 * `:'<,'>Tap cat > other-file.md`: Create a new file `other-file.md` containing only the selected
   text.
